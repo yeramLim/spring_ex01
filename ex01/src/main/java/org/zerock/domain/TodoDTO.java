@@ -1,5 +1,12 @@
 package org.zerock.domain;
 
-public class TodoDTO {
+import java.util.Date;
 
+import lombok.Data;
+
+@Data
+public class TodoDTO {
+	
+	private String title;
+	private Date dueDate;
 }
